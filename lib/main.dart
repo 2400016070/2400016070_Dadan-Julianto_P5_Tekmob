@@ -46,7 +46,7 @@ class _MainNavigationState extends State<MainNavigation> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: (index) {
-          // Inilah State Management sederhana: memperbarui tampilan saat tab diklik
+          
           setState(() {
             _selectedIndex = index;
           });
